@@ -13,14 +13,6 @@ A Flutter plugin that provides voice recognition with support for multiple langu
 
 ## Getting Started
 
-### Installation
-
-Add this to your package's `pubspec.yaml` file:
-
-```yaml
-dependencies:
-  voice_recognition: ^1.0.0
-```
 
 ### Platform Specific Setup
 
