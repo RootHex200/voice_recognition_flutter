@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:voice_recognition/model/voice_recognition_model.dart';
-import 'package:voice_recognition/voice_recognition_platform_interface.dart';
-import 'package:voice_recognition/voice_recognition_method_channel.dart';
+import 'package:voice_recognition_flutter/model/voice_recognition_model.dart';
+import 'package:voice_recognition_flutter/voice_recognition_platform_interface.dart';
+import 'package:voice_recognition_flutter/voice_recognition_method_channel.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
 class MockVoiceRecognitionPlatform

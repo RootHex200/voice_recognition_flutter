@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
-import 'package:voice_recognition/model/voice_recognition_model.dart';
+import 'package:voice_recognition_flutter/model/voice_recognition_model.dart';
 
 import 'voice_recognition_platform_interface.dart';
 

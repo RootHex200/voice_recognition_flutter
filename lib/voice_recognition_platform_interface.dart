@@ -1,5 +1,5 @@
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
-import 'package:voice_recognition/model/voice_recognition_model.dart';
+import 'package:voice_recognition_flutter/model/voice_recognition_model.dart';
 
 import 'voice_recognition_method_channel.dart';
 

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:voice_recognition/voice_recognition.dart';
+import 'package:voice_recognition_flutter/voice_recognition.dart';
 
 void main() {
   runApp(const MyApp());
