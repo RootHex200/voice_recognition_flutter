@@ -1,7 +1,7 @@
 name: voice_recognition
 description: "this is a flutter plugine for voice recognition"
 version: 1.0.0
-homepage:
+homepage: https://github.com/RootHex200/voice_recognition_flutter.git
 
 environment:
   sdk: '>=3.4.4 <4.0.0'
