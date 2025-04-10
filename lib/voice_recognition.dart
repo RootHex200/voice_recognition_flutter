@@ -30,7 +30,7 @@ class VoiceRecognition {
     await VoiceRecognitionPlatform.instance.stopVoice();
   }
 
-  Future getAllLocal() async {
+  Future<List<String>> getAllLocal() async {
     return await VoiceRecognitionPlatform.instance.getAllLocal();
   }
 

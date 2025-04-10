@@ -29,8 +29,14 @@ class MethodChannelVoiceRecognition extends VoiceRecognitionPlatform {
   }
 
   @override
-  Future getAllLocal() async {
-    return await methodChannel.invokeListMethod("getAllLocal");
+  Future<List<String>> getAllLocal() async {
+    var response=await methodChannel.invokeListMethod("getAllLocal");
+    if(response!=null){
+      List<String> tmpList = List<String>.from(response);
+      return tmpList;
+    }
+
+    return [];
   }
 
   @override

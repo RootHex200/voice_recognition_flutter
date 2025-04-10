@@ -30,7 +30,7 @@ abstract class VoiceRecognitionPlatform extends PlatformInterface {
 
   Future stopVoice();
 
-  Future getAllLocal();
+  Future<List<String>> getAllLocal();
 
   Stream<VoiceRecognitionModel> listenResult();
 }

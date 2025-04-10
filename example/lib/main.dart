@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'dart:async';
 
@@ -74,6 +76,12 @@ class _MyAppState extends State<MyApp> {
                 onPressed: () async {
                   final data = await _voicerecognitionPlugin.getAllLocal();
                   print(data);
+                  print(data.runtimeType);
+                  for(var element in data) {
+                    if(element.startsWith("a")){
+                      print(element);
+                    }
+                  }
                 },
                 child: const Text("Local"))
           ],
