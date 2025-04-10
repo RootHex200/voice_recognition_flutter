@@ -1,3 +1,6 @@
+## 1.1.1
+- Fix getAllLocal() returns incorrect type causing CastList<Object?, dynamic> to List<String> type error
+
 ## 1.1.0
 
 Initial release of the voice_recognition plugin.
